@@ -1,0 +1,39 @@
+.body {
+
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color:#ff0000;
+
+}
+
+h3 {
+    color: #000000;
+}
+
+main {
+    margin-bottom: 100%;
+  }
+  .floating-menu {
+    background: #ff0000;
+    padding: 5px;;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3,
+  .floating-menu h1,
+  .floating-menu h5 {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
