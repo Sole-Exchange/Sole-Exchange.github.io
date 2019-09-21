@@ -1,14 +1,44 @@
-.body {
+.poppin {
+  font-family: 'Poppins', sans-serif;
+}
 
-    font-family: 'Poppins', sans-serif;
+.body {
     display: flex;
     justify-content: center;
 }
 
-.container {
-  padding-top: 20%;
-  margin-left: 10%;
-  margin-right: 10%;
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin-right:15%;
+  margin-left: 15%;
+  margin-bottom: 0%;
+}
+
+.subbox {
+  text-align: center;
+  padding-left: 35%;
+}
+
+.top {
+  padding-top: 5%;
+}
+
+.leftcontainer {
+  padding-left: 10%;
+  padding-top: 0%;
+  padding-right: 30%;
+  position: absolute;
+  bottom: 10;
+  width: 50%;
+}
+
+.rightcontainer {
+  text-align: right;
+  padding-top: 10%;
+  padding-right: 25%;
+  padding-left: 50%;
 }
 
 h1 {
@@ -16,16 +46,18 @@ h1 {
 }
 
 h2 {
+    font-size: 3em;
     color:#ff0000;
 
 }
 
 h3 {
+    font-size: 2em;
     color: #000000;
 }
 
 .main {
-    margin-bottom: 100%;
+    margin-bottom: 15%;
   }
   .floating-menu {
     background: #ff0000;
@@ -43,4 +75,12 @@ h3 {
     color: white;
   }
 
-  
+  .footer {
+    width: 100%;
+    background-color:#000000;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    margin-top: 0%;
+  }
