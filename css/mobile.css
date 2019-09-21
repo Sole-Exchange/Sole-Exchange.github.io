@@ -1,11 +1,4 @@
-.poppin {
-  font-family: 'Poppins', sans-serif;
-}
 
-.body {
-    display: flex;
-    justify-content: center;
-}
 
 
 
@@ -17,40 +10,74 @@
   margin-left: 20%;
 }
 
-.leftcontainer {
-  padding-left: 10%;
-  position: absolute;
-  bottom: 10;
-}
-
-h1 {
-    color: #ffffff;
-}
-
-h2 {
-    color:#ff0000;
-
-}
-
-h3 {
-    color: #000000;
-}
-
-.main {
-    margin-bottom: 100%;
+  .poppin {
+    font-family: 'Poppins', sans-serif;
   }
-  .floating-menu {
-    background: #ff0000;
-    padding: 5px;;
-    width: 100%;
-    z-index: 100;
-    position: fixed;
+  
+  .body {
+      display: flex;
+      justify-content: center;
   }
-  .floating-menu a, 
-  .floating-menu h3,
-  .floating-menu h1,
-  .floating-menu h5 {
-    display: flex;
-    justify-content: center;
-    color: white;
+  
+ 
+  
+  .subbox {
+    text-align: center;
+    padding-left: 35%;
   }
+  
+  .top {
+    padding-top: 5%;
+  }
+  
+  .leftcontainer {
+    padding-left: 10%;
+    position: absolute;
+    bottom: 10;
+  }
+  
+ 
+  
+  h1 {
+      color: #ffffff;
+  }
+  
+  h2 {
+      font-size: 3em;
+      color:#ff0000;
+  
+  }
+  
+  h3 {
+      font-size: 2em;
+      color: #000000;
+  }
+  
+  .main {
+      margin-bottom: 15%;
+    }
+    .floating-menu {
+      background: #ff0000;
+      padding: 5px;;
+      width: 100%;
+      z-index: 100;
+      position: fixed;
+    }
+    .floating-menu a, 
+    .floating-menu h3,
+    .floating-menu h1,
+    .floating-menu h5 {
+      display: flex;
+      justify-content: center;
+      color: white;
+    }
+  
+    .footer {
+      width: 100%;
+      background-color:#000000;
+      position: relative;
+      right: 0;
+      bottom: 0;
+      height: 100px;
+      margin-top: 0%;
+    }
