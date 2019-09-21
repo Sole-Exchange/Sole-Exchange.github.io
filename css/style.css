@@ -1,14 +1,43 @@
-.body {
+.poppin {
+  font-family: 'Poppins', sans-serif;
+}
 
-    font-family: 'Poppins', sans-serif;
+.body {
     display: flex;
     justify-content: center;
 }
 
-.container {
-  padding-top: 20%;
-  margin-left: 10%;
-  margin-right: 10%;
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin-right:15%;
+  margin-left: 15%;
+}
+
+.subbox {
+  text-align: center;
+  padding-left: 35%;
+}
+
+.top {
+  padding-top: 5%;
+}
+
+.leftcontainer {
+  padding-left: 10%;
+  padding-top: 0%;
+  padding-right: 30%;
+  position: absolute;
+  bottom: 10;
+  width: 50%;
+}
+
+.rightcontainer {
+  text-align: right;
+  padding-top: 10%;
+  padding-right: 25%;
+  padding-left: 50%;
 }
 
 h1 {
@@ -16,11 +45,13 @@ h1 {
 }
 
 h2 {
+    font-size: 3em;
     color:#ff0000;
 
 }
 
 h3 {
+    font-size: 2em;
     color: #000000;
 }
 

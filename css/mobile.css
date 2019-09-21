@@ -1,16 +1,26 @@
-.body {
-
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-
-
+.poppin {
+  font-family: 'Poppins', sans-serif;
 }
 
-.container {
-  padding-top: 20%;
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-right:20%;
   margin-left: 20%;
-  margin-right: 20%;
+}
+
+.leftcontainer {
+  padding-left: 10%;
+  position: absolute;
+  bottom: 10;
 }
 
 h1 {
