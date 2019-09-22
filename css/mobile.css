@@ -18,7 +18,7 @@
 }
   
   .title{
-    padding-top: 25%;
+    padding-top: 10%;
     padding-bottom:5%;
     margin:0%;
     text-align: center;
@@ -30,7 +30,7 @@
 
   .shoe {
     padding-left: 20%;
-    padding-top: 25%;
+    padding-top: 10%;
     padding-right: 20%;
     position: absolute;
     width: 80%;
@@ -40,7 +40,7 @@
   .subbox {
     padding-top: 100%;
     height:10%;
-    width:85%;
+    width:100%;
     padding-right:5%;
     padding-left:5%;
     padding-bottom:15%;
@@ -48,7 +48,7 @@
   }
 
   .soon{
-    padding-top:80%;
+    padding-top:400px;
     padding-bottom:0%;
   }
 
