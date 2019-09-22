@@ -18,7 +18,9 @@
 
 .subbox {
   text-align: center;
-  padding-left: 35%;
+  padding-left: 15%;
+  width:110%;
+  border:#a9b8de;
 }
 
 .top {
@@ -87,3 +89,12 @@ h3 {
     margin-bottom: 0%;
   }
 
+  .contact {
+    border-color:#a9b8de;
+    border-width: medium;
+  
+  }
+
+  contact-submit{
+    background-color:#a9b8de;
+  }
