@@ -1,3 +1,259 @@
+ 
+.container {
+    padding-top:5%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-left:15%;
+    padding-right:15%;
+    width:70%;
+    position:relative;
+
+}
+  .main {
+    top:0;
+    width:100%;
+    position:relative;
+  }
+
+.centerplz {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title{
+  margin-bottom:0%;
+  display: flex;
+  text-align: center;
+  width: 70%;
+}
+
+.soon{
+  margin-top:0%;
+  margin-bottom:0%;
+  display: flex;
+  text-align: center;
+  margin-left:10%;
+  margin-right:15%;
+  width: 70%;
+
+}
+
+.shoe {
+  margin-top:0%;
+  margin-bottom:0%;
+  padding-top:0%;
+  padding-bottom: 0%;
+
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 2.5em;
+  color:#ff0000;
+
+}
+
+h3 {
+  font-size: 2em;
+  color: #000000;
+}
+
+h4 {
+    font-weight: 700;
+}
+h5{
+    font-weight: 300;
+}
+
+h6 {
+  font-weight: 500i;
+  color: #262626;
+}
+
+.coolgrey {
+  color: #262626;
+
+}
+
+.btn {
+    min-width: 100px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    margin-bottom: 100%;
+
+  }
+  .floating-menu {
+    font-family: "Poppins";
+    background: #ff0000;
+    padding: 5px;;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+  }
+  .floating-menu a, 
+  .floating-menu h3,
+  .floating-menu h1,
+  .floating-menu h5 {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact {
+  border-color:#a9b8de;
+  border-width: medium;
+}
+
+.footer{
+  background-color: #000000;
+  margin-bottom: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  padding-top: 15%;
+}
+
+  .poppin {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .title{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align: center;
+    position: absolute;
+    width: 70%;
+    height:10%;
+  }
+
+  .shoe {
+    display: flex;
+    padding-left: 20%;
+    padding-top: 15%;
+    padding-right: 20%;
+    position: absolute;
+    width: 80%;
+  }
+
+  .soon{
+    display: flex;
+    justify-content: center;
+    padding-top: 70%;
+    padding-bottom:5%;
+    text-align: center;
+    position: absolute;
+    width: 70%;
+    height:10%;
+  }
+
+  .subbox{
+    display: flex;
+    justify-content: center;
+    padding-top: 90%;
+    padding-bottom:5%;
+    text-align: center;
+    position: absolute;
+    width: 70%;
+    height:10%;
+  }
+
+  
+  h1 {
+      color: #ffffff;
+  }
+  
+  h2 {
+      font-size: 2.5em;
+      color:#ff0000;
+  
+  }
+  
+  h3 {
+      font-size: 2em;
+      padding-top:60%;
+      color: #000000;
+  }
+  
+  .main {
+      margin-top:0%;
+      margin-bottom: 40%;
+    }
+    .floating-menu {
+      background: #ff0000;
+      padding: 1%;;
+      width: 100%;
+      z-index: 100;
+      position: fixed;
+      display: flex;
+      justify-content: center;
+    }
+    .floating-menu a, 
+    .floating-menu h3,
+    .floating-menu h1,
+    .floating-menu h5 {
+      display: flex;
+      justify-content: center;
+      color: white;
+    }
+  
+    .footer {
+      width: 100%;
+      background-color:#000000;
+      z-index: 100;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      height: 100px;
+      margin-bottom: 0%;
+      display:flex;
+      justify-content: center;
+    }
+
+*/
+
+
+
+
+
+
+
+/*
+
 .poppin {
   font-family: 'Poppins', sans-serif;
 }
@@ -11,9 +267,11 @@
   display: flex;
   justify-content: space-evenly;
   width: 70%;
+  margin-left:15%;
   margin-right:15%;
-  margin-left: 15%;
-  margin-bottom: 0%;
+  margin:auto;
+  position:relative;
+
 }
 
 .subbox {
@@ -28,6 +286,7 @@
 }
 
 .shoe {
+  display: flex;
   padding-left: 10%;
   padding-top: 0%;
   padding-right: 30%;
@@ -98,3 +357,4 @@ h3 {
   contact-submit{
     background-color:#a9b8de;
   }
+*/
