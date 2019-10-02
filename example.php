@@ -34,24 +34,8 @@ Sole Exchange
                     <h2 class="title "NETFLIX>  NETFLIX FOR <br> SNEAKERHEADS</h2> 
                     <img class="shoe " src="images/Concord.png" alt="Sneaker (Jordan Concords)">
                     <h3 class="soon ">COMING SOON</h3> 
-                    <?PHP
-echo $_SERVER["PHP_SELF"];
-
-$email = $_POST["emailaddress"];
-$to = "tiana.horn@gmail.com";
-$subject = "I'm Interested in Learning More About Sole Exchange";
-$headers = "From: $email\n";
-$message = "$message \n Someone just subscribed to Sole Exchange!\n
-
-Email Address: $email";
-$user = "$email";
-$usersubject = "Thank You";
-$userheaders = "From: laquan.jordan@yahoo.com\n";
-$usermessage = "Thank you for subscribing to the Sole Exchange mailing list. You'll be the first to know when we launch!";
-mail($to,$subject,$message,$headers);
-mail($user,$usersubject,$usermessage,$userheaders);
-?>
-                        <form method="POST" name="emailform" action="index.php">
+                    
+                        <form method="POST" name="emailform" action="">
                             <fieldset class="contact">
                             <input placeholder="&#xf0e0; GET NOTIFIED" style="font-family:Poppins, FontAwesome"  type="email" name="email" tabindex="2" required>
                             <textarea name="message"></textarea>
