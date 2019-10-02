@@ -34,14 +34,6 @@ Sole Exchange
                     <h2 class="title "NETFLIX>  NETFLIX FOR <br> SNEAKERHEADS</h2> 
                     <img class="shoe " src="images/Concord.png" alt="Sneaker (Jordan Concords)">
                     <h3 class="soon ">COMING SOON</h3> 
-                    
-                        <form method="POST" name="emailform" action="">
-                            <fieldset class="contact">
-                            <input placeholder="&#xf0e0; GET NOTIFIED" style="font-family:Poppins, FontAwesome"  type="email" name="email" tabindex="2" required>
-                            <textarea name="message"></textarea>
-                            <input type="submit">
-                            </fieldset>
-                        </form>
                     </group>
             </div> 
         </div>
